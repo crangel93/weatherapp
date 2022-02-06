@@ -1,2 +1,2 @@
-# weatherapp
-a simple weather app
+# weather
+A weather dashboard app

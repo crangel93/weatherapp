@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <meta charset="UTF-8">
+  
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+   <center> <h1 id="h1Gradient">Weather Dashboard</h1></center>
+   
+   <div style="float:left">
+    <h2>Search For a City</h2>
+    <form onsubmit="return false">
+    <input type="text" id="city"></input>  <br><br>
+    <button id="searchButton" onclick="getWeather()">Search</button>
+   </form>
+   </div>
+   <div id="cityCurrentWeather"><h1 id="cityCurrent">City</h1>
+    <h4 id="temp">Temp:</h4>
+    <h4 id="wind">Wind:</h4>
+    <h4 id="humid">Humidity:</h4>
+   
+  
+
+
+</div><br><br><br><br><br><br><br>
+<div class="card1">
+    <p id="date1"> </p>
+    <img id="picture1"> </img>
+    <p id="temp1"></p>
+    <p id="wind1"></p>
+   <p id="humid1"> </p>
+</div>
+<div class="card2">
+    <p id="date2"> </p>
+    <img id="picture2"> </img>
+    <p id="temp2"></p>
+    <p id="wind2"></p>
+   <p id="humid2"> </p>
+</div>
+<div class="card3">
+    <p id="date3"> </p>
+    <img id="picture3"> </img>
+    <p id="temp3"></p>
+    <p id="wind3"></p>
+   <p id="humid3"> </p>
+</div>
+<div class="card4">
+    <p id="date4"> </p>
+    <img id="picture4"> </img>
+    <p id="temp4"></p>
+    <p id="wind4"></p>
+   <p id="humid4"></p>
+</div>
+<div class="card5">
+ <p id="date5"> </p>
+ <img id="picture5"> </img>
+ <p id="temp5"></p>
+ <p id="wind5"></p>
+<p id="humid5"></p>
+</div>
+
+
+   
+   
+   
+   
+   
+   <script src="./assets/js/script.js"></script>
+</body>
+</html>
